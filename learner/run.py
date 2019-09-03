@@ -37,6 +37,7 @@ def main(args):
 
         # score
         clusters = processor.score(labels)
+        print(clusters)
         
         with open(os.path.join(path, 'clusters.%03d.json' % count), 'w') as f:
             f.write(json.dumps(clusters, indent=2, ensure_ascii=False).encode('utf8'))

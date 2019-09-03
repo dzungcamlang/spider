@@ -192,7 +192,7 @@ class Processor(object):
 
         #return clusters, np.hstack([continuous_features, discrete_features]).astype(np.float32), labels.astype(np.float32)
 
-    """
+    
     def score(self, labels):
 
         clusters = collections.defaultdict(lambda: dict(
@@ -249,11 +249,11 @@ class Processor(object):
             cluster['selectors'] = utils.consolidate_selectors(cluster['selectors'])
 
         # get rid of the clusters with score 0
-        for label in clusters.keys():
+        for label in list(clusters.keys()):
             if clusters[label]['score'] <= 0 or clusters[label]['confidence'] <= 0:
                 del clusters[label]
 
         return clusters.values()
-        """
+        
 
 
