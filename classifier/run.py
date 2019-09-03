@@ -112,7 +112,7 @@ def main(args):
     ham = collections.defaultdict(dict)
     spam = collections.defaultdict(dict)
 
-    for id, cluster in clusters.iteritems():
+    for id, cluster in clusters.items():
         for page in cluster['pages'].values():
             content = ''
             for text in page['texts']:
@@ -147,12 +147,12 @@ def stats(negatives, positives):
     common = negative_features & positives_features
 
     for text in negatives:
-        for key, value in text['computed'].iteritems():
+        for key, value in text['computed'].items():
             if (key, value) not in common:
                 negative_counts[(key, value)] += 1
 
     for text in positives:
-        for key, value in text['computed'].iteritems():
+        for key, value in text['computed'].items():
             if (key, value) not in common:
                 positives_counts[(key, value)] += 1
 

@@ -115,7 +115,7 @@ class Processor(object):
         labels = []
 
         """
-        for id, cluster in clusters.iteritems():
+        for id, cluster in clusters.items():
             for page in cluster['pages'].values():
                 for text in page['texts']:
                     text_length = len(text['tokens'])

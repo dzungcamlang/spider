@@ -97,7 +97,7 @@ def main(args):
     ham = collections.defaultdict(dict)
     spam = collections.defaultdict(dict)
 
-    for id, cluster in clusters.iteritems():
+    for id, cluster in clusters.items():
         for page in cluster['pages'].values():
             content = ''
             for text in page['texts']:

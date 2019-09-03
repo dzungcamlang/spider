@@ -69,7 +69,7 @@ def main(args):
 
         max_score = 0
         best_label = None
-        for label, texts in clusters.iteritems():
+        for label, texts in clusters.items():
             tokens = ''
             for text in texts:
                 tokens += text['tokens']
@@ -83,7 +83,7 @@ def main(args):
 
 
         page_texts = []
-        for label, texts in clusters.iteritems():
+        for label, texts in clusters.items():
             page_texts += texts
         random.shuffle(page_texts)
         pages.append(page_texts)
@@ -217,12 +217,12 @@ def stats(negatives, positives):
     common = negative_features & positives_features
 
     for text in negatives:
-        for key, value in text['computed'].iteritems():
+        for key, value in text['computed'].items():
             if (key, value) not in common:
                 negative_counts[(key, value)] += 1
 
     for text in positives:
-        for key, value in text['computed'].iteritems():
+        for key, value in text['computed'].items():
             if (key, value) not in common:
                 positives_counts[(key, value)] += 1
 

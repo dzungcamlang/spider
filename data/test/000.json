@@ -1,0 +1,1427 @@
+{
+  "body": {
+    "bound": {
+      "height": 4000,
+      "left": 0,
+      "top": 0,
+      "width": 1600
+    },
+    "computed": {
+      "alignment-baseline": "auto",
+      "background-attachment": "scroll",
+      "background-clip": "border-box",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "background-image": "none",
+      "background-origin": "padding-box",
+      "background-position": "0% 0%",
+      "background-repeat": "no-repeat",
+      "background-size": "auto",
+      "baseline-shift": "baseline",
+      "border-bottom-color": "rgb(0, 0, 0)",
+      "border-bottom-left-radius": "0px",
+      "border-bottom-right-radius": "0px",
+      "border-bottom-style": "none",
+      "border-bottom-width": "0px",
+      "border-collapse": "separate",
+      "border-image-outset": "0px",
+      "border-image-repeat": "stretch",
+      "border-image-slice": "100%",
+      "border-image-source": "none",
+      "border-image-width": "1",
+      "border-left-color": "rgb(0, 0, 0)",
+      "border-left-style": "none",
+      "border-left-width": "0px",
+      "border-right-color": "rgb(0, 0, 0)",
+      "border-right-style": "none",
+      "border-right-width": "0px",
+      "border-top-color": "rgb(0, 0, 0)",
+      "border-top-left-radius": "0px",
+      "border-top-right-radius": "0px",
+      "border-top-style": "none",
+      "border-top-width": "0px",
+      "bottom": "auto",
+      "box-shadow": "none",
+      "box-sizing": "border-box",
+      "buffered-rendering": "auto",
+      "caption-side": "top",
+      "clear": "none",
+      "clip": "auto",
+      "clip-path": "none",
+      "clip-rule": "nonzero",
+      "color": "rgb(0, 0, 0)",
+      "color-interpolation": "srgb",
+      "color-interpolation-filters": "linearrgb",
+      "color-rendering": "auto",
+      "cursor": "default",
+      "direction": "ltr",
+      "display": "block",
+      "dominant-baseline": "auto",
+      "empty-cells": "show",
+      "fill": "#000000",
+      "fill-opacity": "1",
+      "fill-rule": "nonzero",
+      "filter": "none",
+      "float": "none",
+      "flood-color": "rgb(0, 0, 0)",
+      "flood-opacity": "1",
+      "font-family": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "font-size": "20px",
+      "font-style": "normal",
+      "font-variant": "normal",
+      "font-weight": "normal",
+      "glyph-orientation-horizontal": "0deg",
+      "glyph-orientation-vertical": "auto",
+      "height": "4000px",
+      "image-rendering": "auto",
+      "kerning": "0",
+      "left": "auto",
+      "letter-spacing": "normal",
+      "lighting-color": "rgb(255, 255, 255)",
+      "line-height": "35px",
+      "list-style-image": "none",
+      "list-style-position": "outside",
+      "list-style-type": "disc",
+      "margin-bottom": "0px",
+      "margin-left": "0px",
+      "margin-right": "0px",
+      "margin-top": "0px",
+      "marker-end": "none",
+      "marker-mid": "none",
+      "marker-start": "none",
+      "mask": "none",
+      "mask-type": "luminance",
+      "max-height": "none",
+      "max-width": "none",
+      "min-height": "0px",
+      "min-width": "0px",
+      "opacity": "1",
+      "orphans": "auto",
+      "outline-color": "rgb(0, 0, 0)",
+      "outline-offset": "0px",
+      "outline-style": "none",
+      "outline-width": "0px",
+      "overflow-wrap": "normal",
+      "overflow-x": "visible",
+      "overflow-y": "visible",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "padding-top": "0px",
+      "page-break-after": "auto",
+      "page-break-before": "auto",
+      "page-break-inside": "auto",
+      "pointer-events": "auto",
+      "position": "static",
+      "resize": "none",
+      "right": "auto",
+      "shape-rendering": "auto",
+      "speak": "normal",
+      "stop-color": "rgb(0, 0, 0)",
+      "stop-opacity": "1",
+      "stroke": "none",
+      "stroke-dasharray": "none",
+      "stroke-dashoffset": "0",
+      "stroke-linecap": "butt",
+      "stroke-linejoin": "miter",
+      "stroke-miterlimit": "4",
+      "stroke-opacity": "1",
+      "stroke-width": "1",
+      "tab-size": "8",
+      "table-layout": "auto",
+      "text-align": "start",
+      "text-anchor": "start",
+      "text-decoration": "none",
+      "text-indent": "0px",
+      "text-overflow": "clip",
+      "text-rendering": "optimizelegibility",
+      "text-shadow": "none",
+      "text-transform": "none",
+      "top": "auto",
+      "transition-delay": "0s",
+      "transition-duration": "0s",
+      "transition-property": "all",
+      "transition-timing-function": "ease",
+      "unicode-bidi": "normal",
+      "vector-effect": "none",
+      "vertical-align": "baseline",
+      "visibility": "visible",
+      "white-space": "normal",
+      "widows": "auto",
+      "width": "1600px",
+      "word-break": "normal",
+      "word-spacing": "0px",
+      "word-wrap": "normal",
+      "writing-mode": "lr-tb",
+      "z-index": "auto",
+      "zoom": "1"
+    },
+    "scroll": {
+      "left": 0,
+      "top": 0
+    }
+  },
+  "descriptions": [
+    "There’s no doubt that Apple’s self-polished reputation for privacy and security has taken a bit of a battering recently. On the security front, Google researchers just disclosed a major flaw in the iPhone, finding a number of malicious websites that could hack into a victim’s device by exploiting a set of previously undisclosed software bugs. […]",
+    "There’s no doubt that Apple’s self-polished reputation for privacy and security has taken a bit of a battering recently. On the security front, Google researchers just disclosed a major flaw in the iPhone, finding a number of malicious websites that could hack into a victim’s device by …",
+    "There’s no doubt that Apple’s self-polished reputation for privacy and security has taken a bit of a battering recently. On the security front, Google researchers just disclosed a major flaw in the iPhone, finding a number of malicious websites that could hack into a victim’s device by exploiting a set of previously undisclosed software bugs. […]"
+  ],
+  "titles": [
+    "Apple still has work to do on privacy – TechCrunch",
+    "Apple still has work to do on privacy – TechCrunch",
+    "Apple still has work to do on privacy – TechCrunch"
+  ],
+  "url": "https://techcrunch.com/2019/08/31/apple-still-has-work-to-do-on-privacy/",
+  "links": [
+    "https://techcrunch.com/author/natasha-lomas/",
+    "https://twitter.com/riptari",
+    "https://techcrunch.com/2019/08/29/google-iphone-secretly-hacked/",
+    "https://t.co/AmWRpbcIHw",
+    "https://t.co/vUNQDo9noJ",
+    "https://twitter.com/lukOlejnik/status/1167311493345341442?ref_src=twsrc%5Etfw",
+    "https://crunchbase.com/organization/apple",
+    "https://techcrunch.com/2019/06/03/apple-is-now-the-privacy-as-a-service-company/"
+  ],
+  "texts": [
+    {
+      "bound": {
+        "height": 49,
+        "left": 389,
+        "top": 31,
+        "width": 1112
+      },
+      "computed": {
+        "cursor": "pointer",
+        "font-family": "aktiv-grotesk, sans-serif",
+        "font-size": "45px",
+        "font-weight": "800",
+        "letter-spacing": "-1.2999999523162842px",
+        "line-height": "49px",
+        "margin-top": "9px"
+      },
+      "element": {
+        "classes": [
+          "article__title"
+        ],
+        "id": "",
+        "name": "h1"
+      },
+      "html": "Apple still has work to do on privacy",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "header",
+        "div",
+        "h1"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article__header"
+          ],
+          "id": "",
+          "name": "header"
+        },
+        {
+          "classes": [
+            "article__title-wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article__title"
+          ],
+          "id": "",
+          "name": "h1"
+        }
+      ],
+      "text": [
+        "Apple still has work to do on privacy"
+      ]
+    },
+    {
+      "bound": {
+        "height": 44,
+        "left": 389,
+        "top": 107,
+        "width": 265.75
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-family": "aktiv-grotesk, sans-serif",
+        "font-size": "18px",
+        "font-weight": "bold",
+        "line-height": "43.75px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [
+          "article__byline"
+        ],
+        "id": "",
+        "name": "div"
+      },
+      "html": "\n\t\t\t<a href=\"https://techcrunch.com/author/natasha-lomas/\">\n\t\t\tNatasha Lomas\t\t</a>\n\t\t<span class=\"article__byline__meta\">\n\t\t\t\t\t\t\t<a href=\"https://twitter.com/riptari\">@riptari</a>\n\t\t\t\t<span class=\"text--green\"> / </span>\n\t\t\t\t\t\t3 days\t\t</span>\n\t",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "header",
+        "div",
+        "div"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article__header"
+          ],
+          "id": "",
+          "name": "header"
+        },
+        {
+          "classes": [
+            "article__byline-wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article__byline"
+          ],
+          "id": "",
+          "name": "div"
+        }
+      ],
+      "text": [
+        "\n\t\t\tNatasha Lomas\t\t"
+      ]
+    },
+    {
+      "bound": {
+        "height": 43,
+        "left": 525.125,
+        "top": 109,
+        "width": 130.625
+      },
+      "computed": {
+        "border-bottom-color": "rgb(119, 119, 119)",
+        "border-left-color": "rgb(119, 119, 119)",
+        "border-right-color": "rgb(119, 119, 119)",
+        "border-top-color": "rgb(119, 119, 119)",
+        "color": "rgb(119, 119, 119)",
+        "display": "inline-block",
+        "font-family": "aktiv-grotesk, sans-serif",
+        "font-size": "15px",
+        "line-height": "43.75px",
+        "outline-color": "rgb(119, 119, 119)",
+        "padding-left": "10px"
+      },
+      "element": {
+        "classes": [
+          "article__byline__meta"
+        ],
+        "id": "",
+        "name": "span"
+      },
+      "html": "\n\t\t\t\t\t\t\t<a href=\"https://twitter.com/riptari\">@riptari</a>\n\t\t\t\t<span class=\"text--green\"> / </span>\n\t\t\t\t\t\t3 days\t\t",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "header",
+        "div",
+        "div",
+        "span"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article__header"
+          ],
+          "id": "",
+          "name": "header"
+        },
+        {
+          "classes": [
+            "article__byline-wrapper"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article__byline"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article__byline__meta"
+          ],
+          "id": "",
+          "name": "span"
+        }
+      ],
+      "text": [
+        "@riptari",
+        " / ",
+        "\n\t\t\t\t\t\t3 days\t\t"
+      ]
+    },
+    {
+      "bound": {
+        "height": 80,
+        "left": 389,
+        "top": 598,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "speakable-summary",
+        "name": "p"
+      },
+      "html": "<span class=\"featured__span-first-words\">There’s no doubt</span> that Apple’s self-polished reputation for privacy and security has taken a bit of a battering recently.",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "speakable-summary",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "There’s no doubt",
+        " that Apple’s self-polished reputation for privacy and security has taken a bit of a battering recently."
+      ]
+    },
+    {
+      "bound": {
+        "height": 160,
+        "left": 389,
+        "top": 695,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "On the security front, Google researchers just <a href=\"https://techcrunch.com/2019/08/29/google-iphone-secretly-hacked/\">disclosed</a> a major flaw in the iPhone, finding a number of malicious websites that could hack into a victim’s device by exploiting a set of previously undisclosed software bugs. When visited, the sites infected iPhones with an implant designed to harvest personal data — such as location, contacts and messages.",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "On the security front, Google researchers just ",
+        "disclosed",
+        " a major flaw in the iPhone, finding a number of malicious websites that could hack into a victim’s device by exploiting a set of previously undisclosed software bugs. When visited, the sites infected iPhones with an implant designed to harvest personal data — such as location, contacts and messages."
+      ]
+    },
+    {
+      "bound": {
+        "height": 80,
+        "left": 389,
+        "top": 872,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "As flaws go, it looks like a <em>very</em> bad one. And when security fails so spectacularly, all those shiny privacy promises naturally go straight out the window.",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "As flaws go, it looks like a ",
+        "very",
+        " bad one. And when security fails so spectacularly, all those shiny privacy promises naturally go straight out the window."
+      ]
+    },
+    {
+      "bound": {
+        "height": 70,
+        "left": 409,
+        "top": 979,
+        "width": 1072
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "letter-spacing": "-0.10000000149011612px",
+        "margin-bottom": "15px",
+        "outline-color": "rgb(51, 51, 51)",
+        "unicode-bidi": "embed"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "The implant was used to steal location data and files like databases of WhatsApp, Telegram, iMessage. So all the user messages, or  emails. Copies of contacts, photos, <a href=\"https://t.co/AmWRpbcIHw\">https://t.co/AmWRpbcIHw</a> <a href=\"https://t.co/vUNQDo9noJ\">pic.twitter.com/vUNQDo9noJ</a>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "div",
+        "blockquote",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "breakout",
+            "embed"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "twitter-tweet"
+          ],
+          "id": "",
+          "name": "blockquote"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "The implant was used to steal location data and files like databases of WhatsApp, Telegram, iMessage. So all the user messages, or  emails. Copies of contacts, photos, ",
+        "https://t.co/AmWRpbcIHw",
+        "pic.twitter.com/vUNQDo9noJ"
+      ]
+    },
+    {
+      "bound": {
+        "height": 35,
+        "left": 409,
+        "top": 1066,
+        "width": 1072
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "letter-spacing": "-0.10000000149011612px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "— Lukasz Olejnik (@lukOlejnik) <a href=\"https://twitter.com/lukOlejnik/status/1167311493345341442?ref_src=twsrc%5Etfw\">August 30, 2019</a>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "div",
+        "blockquote",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "breakout",
+            "embed"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "twitter-tweet"
+          ],
+          "id": "",
+          "name": "blockquote"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "— Lukasz Olejnik (@lukOlejnik) ",
+        "August 30, 2019"
+      ]
+    },
+    {
+      "bound": {
+        "height": 120,
+        "left": 389,
+        "top": 1128,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "And while that particular cold-sweat-inducing iPhone security snafu has now been patched, it does raise questions about what else might be lurking out there. More broadly, it also tests the generally held assumption that iPhones are superior to Android devices when it comes to security.",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "And while that particular cold-sweat-inducing iPhone security snafu has now been patched, it does raise questions about what else might be lurking out there. More broadly, it also tests the generally held assumption that iPhones are superior to Android devices when it comes to security."
+      ]
+    },
+    {
+      "bound": {
+        "height": 40,
+        "left": 389,
+        "top": 1265,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "Are we really so sure that thesis holds?",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "Are we really so sure that thesis holds?"
+      ]
+    },
+    {
+      "bound": {
+        "height": 80,
+        "left": 389,
+        "top": 1322,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "But imagine for a second you could unlink security considerations and purely focus on privacy. Wouldn’t <a class=\"crunchbase-link\" href=\"https://crunchbase.com/organization/apple\" target=\"_blank\" data-type=\"organization\" data-entity=\"apple\">Apple <span class=\"crunchbase-tooltip-indicator\"></span></a> have a robust claim there?",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "But imagine for a second you could unlink security considerations and purely focus on privacy. Wouldn’t ",
+        "Apple ",
+        " have a robust claim there?"
+      ]
+    },
+    {
+      "bound": {
+        "height": 200,
+        "left": 389,
+        "top": 1419,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "On the surface, the notion of Apple having a stronger claim to privacy versus Google — an adtech giant that makes its money by pervasively profiling internet users, whereas Apple sells premium hardware and services (including essentially now ‘<a href=\"https://techcrunch.com/2019/06/03/apple-is-now-the-privacy-as-a-service-company/\">privacy as a service</a>‘) — seems a safe (or, well, safer) assumption. Or at least, until iOS security fails spectacularly and leaks users’ privacy anyway. Then of course affected iOS users can just kiss their privacy goodbye. That’s why this is a thought experiment.",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "On the surface, the notion of Apple having a stronger claim to privacy versus Google — an adtech giant that makes its money by pervasively profiling internet users, whereas Apple sells premium hardware and services (including essentially now ‘",
+        "privacy as a service",
+        "‘) — seems a safe (or, well, safer) assumption. Or at least, until iOS security fails spectacularly and leaks users’ privacy anyway. Then of course affected iOS users can just kiss their privacy goodbye. That’s why this is a thought experiment."
+      ]
+    },
+    {
+      "bound": {
+        "height": 40,
+        "left": 389,
+        "top": 1636,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "But even directly on privacy, Apple is running into problems, too.",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "But even directly on privacy, Apple is running into problems, too."
+      ]
+    },
+    {
+      "bound": {
+        "height": 120,
+        "left": 389,
+        "top": 1693,
+        "width": 1112
+      },
+      "computed": {
+        "border-bottom-color": "rgb(51, 51, 51)",
+        "border-left-color": "rgb(51, 51, 51)",
+        "border-right-color": "rgb(51, 51, 51)",
+        "border-top-color": "rgb(51, 51, 51)",
+        "color": "rgb(51, 51, 51)",
+        "font-size": "23px",
+        "letter-spacing": "-0.10000000149011612px",
+        "line-height": "39px",
+        "margin-bottom": "15px",
+        "margin-top": "15px",
+        "outline-color": "rgb(51, 51, 51)"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "To wit: Siri, its nearly decade-old voice assistant technology, now sits under a penetrating spotlight — having been revealed to contain a not-so-private ‘mechanical turk’ layer of actual humans paid to listen to the stuff people tell it. (Or indeed the personal stuff Siri accidentally records.)",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "div",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article-content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "To wit: Siri, its nearly decade-old voice assistant technology, now sits under a penetrating spotlight — having been revealed to contain a not-so-private ‘mechanical turk’ layer of actual humans paid to listen to the stuff people tell it. (Or indeed the personal stuff Siri accidentally records.)"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "bound": {
+        "height": 399,
+        "left": 250,
+        "top": 179,
+        "width": 581
+      },
+      "computed": {
+        "display": "inline",
+        "max-width": "100%",
+        "vertical-align": "middle"
+      },
+      "element": {
+        "classes": [
+          "article__featured-image"
+        ],
+        "id": "",
+        "name": "img"
+      },
+      "path": [
+        "div",
+        "div",
+        "div",
+        "article",
+        "header",
+        "div",
+        "img"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "root",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "content"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article--post",
+            "article-container"
+          ],
+          "id": "",
+          "name": "article"
+        },
+        {
+          "classes": [
+            "article__header"
+          ],
+          "id": "",
+          "name": "header"
+        },
+        {
+          "classes": [
+            "article__featured-image-wrapper",
+            "breakout"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "article__featured-image"
+          ],
+          "id": "",
+          "name": "img"
+        }
+      ],
+      "src": "https://techcrunch.com/wp-content/uploads/2015/11/185582845.jpg?w=581"
+    }
+  ]
+}

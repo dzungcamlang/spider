@@ -165,6 +165,7 @@
     "Uganda Safari: Head to Murchison Falls National Park and expect: Big 5 sighting, boat trip to the base of the falls plus a hike to the top of the falls. Transfer to",
     "Uganda Safari: Head to Murchison Falls National Park and expect: Big 5 sighting, boat trip to the base of the falls plus a hike to the top of the falls. Transfer to"
   ],
+  "titles": "asdlkaslkd",
   "url": "https://www.safaribookings.com/tours/t10334",
   "links": [
     "https://www.safaribookings.com/cookie-settings",
@@ -424,11 +425,11 @@
     "https://www.safaribookings.com/experts/stephen-cunliffe",
     "https://www.safaribookings.com/experts/stephen-cunliffe",
     "https://www.safaribookings.com/experts",
-    "https://www.safaribookings.com/experts/nana-luckham",
-    "https://www.safaribookings.com/experts/nana-luckham",
+    "https://www.safaribookings.com/experts/brian-jackman",
+    "https://www.safaribookings.com/experts/brian-jackman",
     "https://www.safaribookings.com/experts",
-    "https://www.safaribookings.com/experts/tim-bewer",
-    "https://www.safaribookings.com/experts/tim-bewer",
+    "https://www.safaribookings.com/experts/alan-murphy",
+    "https://www.safaribookings.com/experts/alan-murphy",
     "https://www.safaribookings.com/experts",
     "https://www.safaribookings.com/terms-of-use",
     "https://www.safaribookings.com/privacy-policy",
@@ -1121,7 +1122,7 @@
         "id": "",
         "name": "li"
       },
-      "html": "\n                    <a class=\"nav-t__link nav-t__sub-link\" href=\"https://www.safaribookings.com/tours/kenya\" title=\"Kenya\">Kenya</a>\n                    <span class=\"nav-t__sub-count txt--xgrey txt--xsmall\">\n                        (1,255)\n                    </span>\n                ",
+      "html": "\n                    <a class=\"nav-t__link nav-t__sub-link\" href=\"https://www.safaribookings.com/tours/kenya\" title=\"Kenya\">Kenya</a>\n                    <span class=\"nav-t__sub-count txt--xgrey txt--xsmall\">\n                        (1,256)\n                    </span>\n                ",
       "path": [
         "div",
         "header",
@@ -1225,7 +1226,7 @@
       ],
       "text": [
         "Kenya",
-        "\n                        (1,255)\n                    "
+        "\n                        (1,256)\n                    "
       ]
     },
     {
@@ -2729,7 +2730,7 @@
         "id": "",
         "name": "li"
       },
-      "html": "\n                    <a class=\"nav-t__link nav-t__sub-link\" href=\"https://www.safaribookings.com/tours/tanzania\" title=\"Tanzania\">Tanzania</a>\n                    <span class=\"nav-t__sub-count txt--xgrey txt--xsmall\">\n                        (1,731)\n                    </span>\n                ",
+      "html": "\n                    <a class=\"nav-t__link nav-t__sub-link\" href=\"https://www.safaribookings.com/tours/tanzania\" title=\"Tanzania\">Tanzania</a>\n                    <span class=\"nav-t__sub-count txt--xgrey txt--xsmall\">\n                        (1,736)\n                    </span>\n                ",
       "path": [
         "div",
         "header",
@@ -2833,7 +2834,7 @@
       ],
       "text": [
         "Tanzania",
-        "\n                        (1,731)\n                    "
+        "\n                        (1,736)\n                    "
       ]
     },
     {
@@ -2863,7 +2864,7 @@
         "id": "",
         "name": "li"
       },
-      "html": "\n                    <a class=\"nav-t__link nav-t__sub-link\" href=\"https://www.safaribookings.com/tours/uganda\" title=\"Uganda\">Uganda</a>\n                    <span class=\"nav-t__sub-count txt--xgrey txt--xsmall\">\n                        (804)\n                    </span>\n                ",
+      "html": "\n                    <a class=\"nav-t__link nav-t__sub-link\" href=\"https://www.safaribookings.com/tours/uganda\" title=\"Uganda\">Uganda</a>\n                    <span class=\"nav-t__sub-count txt--xgrey txt--xsmall\">\n                        (805)\n                    </span>\n                ",
       "path": [
         "div",
         "header",
@@ -2967,7 +2968,7 @@
       ],
       "text": [
         "Uganda",
-        "\n                        (804)\n                    "
+        "\n                        (805)\n                    "
       ]
     },
     {
@@ -3265,7 +3266,7 @@
         "id": "",
         "name": "li"
       },
-      "html": "\n                <a class=\"nav-t__link nav-t__sub-link\" href=\"https://www.safaribookings.com/tours\" title=\"All Safaris &amp; Tours\">All Safaris &amp; Tours</a>\n                <span class=\"nav-t__sub-count txt--xgrey txt--xsmall\">\n                    (5,405)\n                </span>\n            ",
+      "html": "\n                <a class=\"nav-t__link nav-t__sub-link\" href=\"https://www.safaribookings.com/tours\" title=\"All Safaris &amp; Tours\">All Safaris &amp; Tours</a>\n                <span class=\"nav-t__sub-count txt--xgrey txt--xsmall\">\n                    (5,411)\n                </span>\n            ",
       "path": [
         "div",
         "header",
@@ -3369,7 +3370,7 @@
       ],
       "text": [
         "All Safaris & Tours",
-        "\n                    (5,405)\n                "
+        "\n                    (5,411)\n                "
       ]
     },
     {
@@ -18326,7 +18327,7 @@
         "height": 20,
         "left": 685,
         "top": 2903.125,
-        "width": 105.421875
+        "width": 101.59375
       },
       "computed": {
         "background-color": "rgba(0, 0, 0, 0)",
@@ -18342,7 +18343,7 @@
         "id": "",
         "name": "h3"
       },
-      "html": "<a href=\"https://www.safaribookings.com/experts/nana-luckham\" title=\"Bio &amp; Reviews of Nana Luckham\">Nana Luckham</a>",
+      "html": "<a href=\"https://www.safaribookings.com/experts/brian-jackman\" title=\"Bio &amp; Reviews of Brian Jackman\">Brian Jackman</a>",
       "path": [
         "div",
         "footer",
@@ -18411,13 +18412,13 @@
         }
       ],
       "text": [
-        "Nana Luckham"
+        "Brian Jackman"
       ]
     },
     {
       "bound": {
         "height": 20,
-        "left": 800.796875,
+        "left": 796.96875,
         "top": 2904.125,
         "width": 38.921875
       },
@@ -18533,7 +18534,7 @@
         "id": "",
         "name": "div"
       },
-      "html": "\n            <i class=\"sbi sbi--star\"></i>\n            <span class=\"txt--grey\">18 Reviews</span>\n        ",
+      "html": "\n            <i class=\"sbi sbi--star\"></i>\n            <span class=\"txt--grey\">48 Reviews</span>\n        ",
       "path": [
         "div",
         "footer",
@@ -18604,7 +18605,7 @@
         }
       ],
       "text": [
-        "18 Reviews"
+        "48 Reviews"
       ]
     },
     {
@@ -18626,7 +18627,7 @@
         "id": "",
         "name": "p"
       },
-      "html": "Nana is a travel writer and author of multiple guidebooks, including the Lonely Planet guides to Africa, Zambia &amp; Malawi and South Africa.",
+      "html": "Brian is an award winning travel writer, author of  safari books and regular contributor to magazines such as BBC Wildlife and Travel Africa.",
       "path": [
         "div",
         "footer",
@@ -18695,7 +18696,7 @@
         }
       ],
       "text": [
-        "Nana is a travel writer and author of multiple guidebooks, including the Lonely Planet guides to Africa, Zambia & Malawi and South Africa."
+        "Brian is an award winning travel writer, author of  safari books and regular contributor to magazines such as BBC Wildlife and Travel Africa."
       ]
     },
     {
@@ -18723,7 +18724,7 @@
         "id": "",
         "name": "div"
       },
-      "html": "\n        <div class=\"expert__photo\">\n            <div>\n                <img src=\"https://cloudfront.safaribookings.com/assets/experts/140x140/Nana_Luckham.jpg\" class=\"expert-photo loaded\" alt=\"Nana Luckham\" srcset=\"https://cloudfront.safaribookings.com/assets/experts/140x140/Nana_Luckham.jpg 2x\">\n            </div>\n            <span></span>\n            <i style=\"border: 1px solid red;\">Expert</i>\n        </div>\n                    <h3 style=\"border: 1px solid red;\"><a href=\"https://www.safaribookings.com/experts/nana-luckham\" title=\"Bio &amp; Reviews of Nana Luckham\">Nana Luckham</a></h3> <div class=\"country-with-flag \" title=\"United Kingdom\" style=\"border: 1px solid red;\">\n            <svg class=\"country-with-flag__flag\" data-role=\"svg-sprite\">\n            <title>United Kingdom</title>\n            <use xlink:href=\"https://www.safaribookings.com/img/flags/flags-countries-reviewers.svg#gb\"></use>\n        </svg>\n              \n    <span class=\"txt--grey\">\n            UK\n        </span>\n</div>\n                <div class=\"expert__reviews\" style=\"border: 1px solid red;\">\n            <i class=\"sbi sbi--star\"></i>\n            <span class=\"txt--grey\">18 Reviews</span>\n        </div>\n        <p style=\"border: 1px solid red;\">Nana is a travel writer and author of multiple guidebooks, including the Lonely Planet guides to Africa, Zambia &amp; Malawi and South Africa.</p>\n                › <a href=\"https://www.safaribookings.com/experts/nana-luckham\" class=\"hide show-ti\" title=\"Full Bio &amp; Reviews of Nana Luckham\">Full Bio &amp; Reviews</a><a href=\"https://www.safaribookings.com/experts\" class=\"hide-t\" title=\"All 23 Experts\"><b>All 23 Experts</b></a>\n            ",
+      "html": "\n        <div class=\"expert__photo\">\n            <div>\n                <img src=\"https://cloudfront.safaribookings.com/assets/experts/140x140/Brian_Jackman.jpg\" class=\"expert-photo loaded\" alt=\"Brian Jackman\" srcset=\"https://cloudfront.safaribookings.com/assets/experts/140x140/Brian_Jackman.jpg 2x\">\n            </div>\n            <span></span>\n            <i style=\"border: 1px solid red;\">Expert</i>\n        </div>\n                    <h3 style=\"border: 1px solid red;\"><a href=\"https://www.safaribookings.com/experts/brian-jackman\" title=\"Bio &amp; Reviews of Brian Jackman\">Brian Jackman</a></h3> <div class=\"country-with-flag \" title=\"United Kingdom\" style=\"border: 1px solid red;\">\n            <svg class=\"country-with-flag__flag\" data-role=\"svg-sprite\">\n            <title>United Kingdom</title>\n            <use xlink:href=\"https://www.safaribookings.com/img/flags/flags-countries-reviewers.svg#gb\"></use>\n        </svg>\n              \n    <span class=\"txt--grey\">\n            UK\n        </span>\n</div>\n                <div class=\"expert__reviews\" style=\"border: 1px solid red;\">\n            <i class=\"sbi sbi--star\"></i>\n            <span class=\"txt--grey\">48 Reviews</span>\n        </div>\n        <p style=\"border: 1px solid red;\">Brian is an award winning travel writer, author of  safari books and regular contributor to magazines such as BBC Wildlife and Travel Africa.</p>\n                › <a href=\"https://www.safaribookings.com/experts/brian-jackman\" class=\"hide show-ti\" title=\"Full Bio &amp; Reviews of Brian Jackman\">Full Bio &amp; Reviews</a><a href=\"https://www.safaribookings.com/experts\" class=\"hide-t\" title=\"All 23 Experts\"><b>All 23 Experts</b></a>\n            ",
       "path": [
         "div",
         "footer",
@@ -19004,7 +19005,7 @@
         "height": 20,
         "left": 1085,
         "top": 2903.125,
-        "width": 73.96875
+        "width": 89.90625
       },
       "computed": {
         "background-color": "rgba(0, 0, 0, 0)",
@@ -19020,7 +19021,7 @@
         "id": "",
         "name": "h3"
       },
-      "html": "<a href=\"https://www.safaribookings.com/experts/tim-bewer\" title=\"Bio &amp; Reviews of Tim Bewer\">Tim Bewer</a>",
+      "html": "<a href=\"https://www.safaribookings.com/experts/alan-murphy\" title=\"Bio &amp; Reviews of Alan Murphy\">Alan Murphy</a>",
       "path": [
         "div",
         "footer",
@@ -19089,15 +19090,15 @@
         }
       ],
       "text": [
-        "Tim Bewer"
+        "Alan Murphy"
       ]
     },
     {
       "bound": {
         "height": 20,
-        "left": 1169.34375,
+        "left": 1185.28125,
         "top": 2904.125,
-        "width": 38
+        "width": 39.171875
       },
       "computed": {
         "background-color": "rgba(0, 0, 0, 0)",
@@ -19114,7 +19115,7 @@
         "id": "",
         "name": "div"
       },
-      "html": "\n     \n        <img src=\"https://cfstatic.safaribookings.com/images/flags/us.png\" class=\"country-with-flag__flag\" alt=\"United States\" title=\"United States\">\n              \n    <span class=\"txt--grey\">\n            US\n        </span>\n",
+      "html": "\n            <svg class=\"country-with-flag__flag\" data-role=\"svg-sprite\">\n            <title>Australia</title>\n            <use xlink:href=\"https://www.safaribookings.com/img/flags/flags-countries-reviewers.svg#au\"></use>\n        </svg>\n              \n    <span class=\"txt--grey\">\n            AU\n        </span>\n",
       "path": [
         "div",
         "footer",
@@ -19185,7 +19186,7 @@
         }
       ],
       "text": [
-        "\n            US\n        "
+        "\n            AU\n        "
       ]
     },
     {
@@ -19211,7 +19212,7 @@
         "id": "",
         "name": "div"
       },
-      "html": "\n            <i class=\"sbi sbi--star\"></i>\n            <span class=\"txt--grey\">21 Reviews</span>\n        ",
+      "html": "\n            <i class=\"sbi sbi--star\"></i>\n            <span class=\"txt--grey\">40 Reviews</span>\n        ",
       "path": [
         "div",
         "footer",
@@ -19282,12 +19283,12 @@
         }
       ],
       "text": [
-        "21 Reviews"
+        "40 Reviews"
       ]
     },
     {
       "bound": {
-        "height": 58,
+        "height": 74,
         "left": 1085,
         "top": 2941.125,
         "width": 285
@@ -19304,7 +19305,7 @@
         "id": "",
         "name": "p"
       },
-      "html": "Tim is a travel writer who has covered 10 African countries for Lonely Planet's Africa, East Africa and West Africa guidebooks.",
+      "html": "Alan is a travel writer and author of over 20 Lonely Planet guidebooks, including the guides to Southern Africa and Zambia &amp; Malawi.",
       "path": [
         "div",
         "footer",
@@ -19373,7 +19374,7 @@
         }
       ],
       "text": [
-        "Tim is a travel writer who has covered 10 African countries for Lonely Planet's Africa, East Africa and West Africa guidebooks."
+        "Alan is a travel writer and author of over 20 Lonely Planet guidebooks, including the guides to Southern Africa and Zambia & Malawi."
       ]
     },
     {
@@ -19401,7 +19402,7 @@
         "id": "",
         "name": "div"
       },
-      "html": "\n        <div class=\"expert__photo\">\n            <div>\n                <img src=\"https://cloudfront.safaribookings.com/assets/experts/140x140/Tim_Bewer.jpg\" class=\"expert-photo loaded\" alt=\"Tim Bewer\" srcset=\"https://cloudfront.safaribookings.com/assets/experts/140x140/Tim_Bewer.jpg 2x\">\n            </div>\n            <span></span>\n            <i style=\"border: 1px solid red;\">Expert</i>\n        </div>\n                    <h3 style=\"border: 1px solid red;\"><a href=\"https://www.safaribookings.com/experts/tim-bewer\" title=\"Bio &amp; Reviews of Tim Bewer\">Tim Bewer</a></h3> <div class=\"country-with-flag \" title=\"United States\" style=\"border: 1px solid red;\">\n     \n        <img src=\"https://cfstatic.safaribookings.com/images/flags/us.png\" class=\"country-with-flag__flag\" alt=\"United States\" title=\"United States\">\n              \n    <span class=\"txt--grey\">\n            US\n        </span>\n</div>\n                <div class=\"expert__reviews\" style=\"border: 1px solid red;\">\n            <i class=\"sbi sbi--star\"></i>\n            <span class=\"txt--grey\">21 Reviews</span>\n        </div>\n        <p style=\"border: 1px solid red;\">Tim is a travel writer who has covered 10 African countries for Lonely Planet's Africa, East Africa and West Africa guidebooks.</p>\n                › <a href=\"https://www.safaribookings.com/experts/tim-bewer\" class=\"hide show-ti\" title=\"Full Bio &amp; Reviews of Tim Bewer\">Full Bio &amp; Reviews</a><a href=\"https://www.safaribookings.com/experts\" class=\"hide-t\" title=\"All 23 Experts\"><b>All 23 Experts</b></a>\n            ",
+      "html": "\n        <div class=\"expert__photo\">\n            <div>\n                <img src=\"https://cloudfront.safaribookings.com/assets/experts/140x140/Alan_Murphy.jpg\" class=\"expert-photo loaded\" alt=\"Alan Murphy\" srcset=\"https://cloudfront.safaribookings.com/assets/experts/140x140/Alan_Murphy.jpg 2x\">\n            </div>\n            <span></span>\n            <i style=\"border: 1px solid red;\">Expert</i>\n        </div>\n                    <h3 style=\"border: 1px solid red;\"><a href=\"https://www.safaribookings.com/experts/alan-murphy\" title=\"Bio &amp; Reviews of Alan Murphy\">Alan Murphy</a></h3> <div class=\"country-with-flag \" title=\"Australia\" style=\"border: 1px solid red;\">\n            <svg class=\"country-with-flag__flag\" data-role=\"svg-sprite\">\n            <title>Australia</title>\n            <use xlink:href=\"https://www.safaribookings.com/img/flags/flags-countries-reviewers.svg#au\"></use>\n        </svg>\n              \n    <span class=\"txt--grey\">\n            AU\n        </span>\n</div>\n                <div class=\"expert__reviews\" style=\"border: 1px solid red;\">\n            <i class=\"sbi sbi--star\"></i>\n            <span class=\"txt--grey\">40 Reviews</span>\n        </div>\n        <p style=\"border: 1px solid red;\">Alan is a travel writer and author of over 20 Lonely Planet guidebooks, including the guides to Southern Africa and Zambia &amp; Malawi.</p>\n                › <a href=\"https://www.safaribookings.com/experts/alan-murphy\" class=\"hide show-ti\" title=\"Full Bio &amp; Reviews of Alan Murphy\">Full Bio &amp; Reviews</a><a href=\"https://www.safaribookings.com/experts\" class=\"hide-t\" title=\"All 23 Experts\"><b>All 23 Experts</b></a>\n            ",
       "path": [
         "div",
         "footer",
@@ -19471,7 +19472,7 @@
       "bound": {
         "height": 20,
         "left": 1093.390625,
-        "top": 3012.125,
+        "top": 3028.125,
         "width": 109.828125
       },
       "computed": {
@@ -20047,7 +20048,7 @@
         "id": "",
         "name": "li"
       },
-      "html": "<a href=\"https://www.safaribookings.com/tours\" title=\"5,416 safaris offered by different operators\"><strong>5,416 safaris</strong> offered by different operators</a>",
+      "html": "<a href=\"https://www.safaribookings.com/tours\" title=\"5,411 safaris offered by different operators\"><strong>5,411 safaris</strong> offered by different operators</a>",
       "path": [
         "div",
         "footer",
@@ -20108,7 +20109,7 @@
         }
       ],
       "text": [
-        "5,416 safaris",
+        "5,411 safaris",
         " offered by different operators"
       ]
     },
@@ -26861,7 +26862,7 @@
           "name": "img"
         }
       ],
-      "src": "https://cloudfront.safaribookings.com/assets/experts/140x140/Nana_Luckham.jpg"
+      "src": "https://cloudfront.safaribookings.com/assets/experts/140x140/Brian_Jackman.jpg"
     },
     {
       "bound": {
@@ -26970,111 +26971,7 @@
           "name": "img"
         }
       ],
-      "src": "https://cloudfront.safaribookings.com/assets/experts/140x140/Tim_Bewer.jpg"
-    },
-    {
-      "bound": {
-        "height": 11,
-        "left": 1171.34375,
-        "top": 2909.125,
-        "width": 16
-      },
-      "computed": {
-        "background-color": "rgba(0, 0, 0, 0)",
-        "display": "inline",
-        "font-size": "13px",
-        "line-height": "20px",
-        "margin-right": "2px",
-        "min-height": "0px",
-        "opacity": "0.699999988079071",
-        "position": "relative",
-        "z-index": "0"
-      },
-      "element": {
-        "classes": [
-          "country-with-flag__flag"
-        ],
-        "id": "",
-        "name": "img"
-      },
-      "path": [
-        "div",
-        "footer",
-        "div",
-        "div",
-        "div",
-        "div",
-        "div",
-        "img"
-      ],
-      "selector": [
-        {
-          "classes": [
-            "wrapper"
-          ],
-          "id": "",
-          "name": "div"
-        },
-        {
-          "classes": [
-            "expertbar",
-            "hide-p"
-          ],
-          "id": "",
-          "name": "footer"
-        },
-        {
-          "classes": [
-            "container"
-          ],
-          "id": "",
-          "name": "div"
-        },
-        {
-          "classes": [
-            "expertbar__experts",
-            "row"
-          ],
-          "id": "",
-          "name": "div"
-        },
-        {
-          "classes": [
-            "col",
-            "col-12",
-            "col-d-4",
-            "col-t-6",
-            "expertbar__experts__expert",
-            "hide",
-            "show-d"
-          ],
-          "id": "",
-          "name": "div"
-        },
-        {
-          "classes": [
-            "expert",
-            "matchheight"
-          ],
-          "id": "",
-          "name": "div"
-        },
-        {
-          "classes": [
-            "country-with-flag"
-          ],
-          "id": "",
-          "name": "div"
-        },
-        {
-          "classes": [
-            "country-with-flag__flag"
-          ],
-          "id": "",
-          "name": "img"
-        }
-      ],
-      "src": "https://cfstatic.safaribookings.com/images/flags/us.png"
+      "src": "https://cloudfront.safaribookings.com/assets/experts/140x140/Alan_Murphy.jpg"
     },
     {
       "bound": {

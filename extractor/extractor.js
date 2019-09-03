@@ -35,6 +35,7 @@
     if (status === !'success') {
       return phantom.exit();
     }
+
     page.evaluate(function() {
       String.prototype.trim = function() {
         return this.replace(/^\s+|\s+$/g, '');
@@ -60,6 +61,7 @@
           return exports.namespace = namespace;
         });
       })(window);
+
       return spider.namespace('spider.utils', function(exports) {
         'use strict';
         exports.is_valid = function(value) {
@@ -67,6 +69,7 @@
           re = /^[a-zA-Z][a-zA-Z0-9\-_]+$/;
           return value && re.test(value);
         };
+
         exports.element = function(element, is_name_only) {
           var c, classes, data, name, _i, _len, _ref;
           name = element.tagName.toLowerCase();
@@ -88,6 +91,7 @@
           };
           return data;
         };
+
         exports.path = function(element, is_name_only) {
           var path;
           path = [];
@@ -100,6 +104,7 @@
           }
           return path;
         };
+
         exports.bound = function(element) {
           var bound, rect, scrollLeft, scrollTop;
           scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
@@ -113,6 +118,7 @@
           };
           return bound;
         };
+
         return exports.computed = function(element) {
           var computed, data, defaults, key, _i, _len;
           defaults = document.defaultView.getComputedStyle(document.body);
@@ -135,7 +141,9 @@
         };
       });
     });
+    
     data = page.evaluate(function() {
+
       var computed, descriptions, key, meta, title, titles, _i, _len, _ref;
       titles = (function() {
         var _i, _len, _ref, _results;
@@ -147,6 +155,7 @@
         }
         return _results;
       })();
+
       descriptions = (function() {
         var _i, _len, _ref, _results;
         _ref = document.querySelectorAll('meta[name="description"]');
@@ -157,6 +166,7 @@
         }
         return _results;
       })();
+
       titles.push.apply(titles, (function() {
         var _i, _len, _ref, _results;
         _ref = document.querySelectorAll('meta[name="og:title"], meta[property="og:title"]');
@@ -167,6 +177,7 @@
         }
         return _results;
       })());
+
       descriptions.push.apply(descriptions, (function() {
         var _i, _len, _ref, _results;
         _ref = document.querySelectorAll('meta[name="og:description"], meta[property="og:description"]');
@@ -177,6 +188,7 @@
         }
         return _results;
       })());
+
       titles.push.apply(titles, (function() {
         var _i, _len, _ref, _results;
         _ref = document.querySelectorAll('meta[name="twitter:title"], meta[property="twitter:title"]');
@@ -187,6 +199,7 @@
         }
         return _results;
       })());
+
       descriptions.push.apply(descriptions, (function() {
         var _i, _len, _ref, _results;
         _ref = document.querySelectorAll('meta[name="twitter:description"], meta[property="twitter:description"]');
@@ -197,7 +210,9 @@
         }
         return _results;
       })());
+
       computed = {};
+
       _ref = document.defaultView.getComputedStyle(document.body);
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         key = _ref[_i];
@@ -206,6 +221,7 @@
         }
         computed[key] = document.defaultView.getComputedStyle(document.body)[key];
       }
+
       data = {
         url: window.location.href,
         titles: titles,
@@ -219,8 +235,10 @@
           computed: computed
         }
       };
+
       return data;
     });
+    
     data.links = page.evaluate(function() {
       var link, _i, _len, _ref, _results;
       _ref = document.querySelectorAll('a[href]');
@@ -231,6 +249,7 @@
       }
       return _results;
     });
+
     data.texts = page.evaluate(function() {
       var bound, computed, node, text, texts, walker;
       texts = [];
@@ -272,6 +291,7 @@
       }
       return texts;
     });
+
     data.images = page.evaluate(function() {
       var bound, images, node, _i, _len, _ref;
       images = [];
@@ -291,10 +311,13 @@
           computed: spider.utils.computed(node)
         });
       }
+
       return images;
     });
+
     fs.write(system.args[2] + '.json', JSON.stringify(data, void 0, 2));
     page.render(system.args[2] + '.png');
+    
     return phantom.exit();
   };
 
