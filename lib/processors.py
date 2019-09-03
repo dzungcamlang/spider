@@ -60,7 +60,7 @@ class Processor(object):
             # continuous features
             continuous_features.append([
                 process(page, text)
-                for key, process in self.CONTINUOUS_FEATURES.iteritems()
+                for key, process in self.CONTINUOUS_FEATURES.items()
             ])
 
             # discrete features

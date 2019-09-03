@@ -50,7 +50,7 @@ def main(args):
         #if domains[host] > 2:
         #    continue
         domains[host] += 1
-        print host
+        print(host)
 
         page = utils.load_data(path, id)
         processor = processors.Processor([page], tokenizer=tokenizers.GenericTokenizer, analyzer=analyzers.LongestAnalyzer)
@@ -147,7 +147,7 @@ def main(args):
     features = preprocessing.scale(features)
 
     features = np.hstack([continuous_features, discrete_features]).astype(np.float32)
-    print features.shape
+    print(features.shape)
 
     precisions = []
     recalls = []
@@ -156,12 +156,12 @@ def main(args):
 
     rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
     for train_index, test_index in rs:
-        print 'training size = %d, testing size = %d' % (len(train_index), len(test_index))
+        print('training size = %d, testing size = %d' % (len(train_index), len(test_index)))
 
         clf = svm.SVC(verbose=False, kernel='linear', probability=False, random_state=0, cache_size=2000, class_weight='auto')
         clf.fit(features[train_index], labels[train_index])
 
-        print clf.n_support_
+        print(clf.n_support_)
 
         """
         negatives = []
@@ -175,13 +175,13 @@ def main(args):
         stats(negatives, positives)
         """
 
-        print "training:"
+        print("training:")
         predicted = clf.predict(features[train_index])
-        print classification_report(labels[train_index], predicted)
+        print(classification_report(labels[train_index], predicted))
 
-        print "testing:"
+        print("testing:")
         predicted = clf.predict(features[test_index])
-        print classification_report(labels[test_index], predicted)
+        print(classification_report(labels[test_index], predicted))
 
         precision, recall, f1score, support = precision_recall_fscore_support(labels[test_index], predicted)
 
@@ -196,7 +196,7 @@ def main(args):
     supports = np.mean(np.array(supports), axis=0)
 
     for label in range(2):
-        print '%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label])
+        print('%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label]))
 
     return
 
@@ -224,10 +224,10 @@ def stats(negatives, positives):
             if (key, value) not in common:
                 positives_counts[(key, value)] += 1
 
-    print 'negatives: '
-    print list(reversed(sorted(filter(lambda x: x[1] > 1, negative_counts.items()), key=lambda pair: pair[1])))[:10]
-    print 'positives: '
-    print list(reversed(sorted(filter(lambda x: x[1] > 1, positives_counts.items()), key=lambda pair: pair[1])))[:10]
+    print('negatives: ')
+    print(list(reversed(sorted(filter(lambda x: x[1] > 1, negative_counts.items()), key=lambda pair: pair[1])))[:10])
+    print('positives: ')
+    print(list(reversed(sorted(filter(lambda x: x[1] > 1, positives_counts.items()), key=lambda pair: pair[1])))[:10])
 
 
 def parse_args():
