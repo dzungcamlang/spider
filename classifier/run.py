@@ -42,7 +42,7 @@ def main(args):
     labels = clusterer.cluster(features).labels_
 
     # prepare features
-    continuous_features, discrete_features, labels = processor.prepare(labels)
+    continuous_features, discrete_features, labels, clusters = processor.prepare(labels)
 
     vectorizer = DictVectorizer()
     discrete_features = vectorizer.fit_transform(discrete_features).toarray()
@@ -59,7 +59,6 @@ def main(args):
     recalls = []
     f1scores = []
     supports = []
-
 
     rs = KFold(4).split(labels)
     for train_index, test_index in rs:
@@ -93,10 +92,9 @@ def main(args):
     for label in range(2):
         print('%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label]))
 
-    return
-
     negatives = []
     positives = []
+    
     for i in range(len(processor.texts)):
         if labels[i]:
             positives.append(processor.texts[i])
@@ -105,27 +103,24 @@ def main(args):
 
     stats(negatives, positives)
 
+    # ham = collections.defaultdict(dict)
+    # spam = collections.defaultdict(dict)
+
+    # for id, cluster in clusters.items():
+    #     for page in cluster['pages'].values():
+    #         content = ''
+    #         for text in page['texts']:
+    #             content += ' '.join(text['text'])
+    #         if cluster['label'] is 1:
+    #             ham[url][id] = content
+    #         else:
+    #             spam[url][id] = content
+
+
+    # with open(os.path.join(path, 'svm.json'), 'wb') as =
+    #     f.write(json.dumps({'ham': ham, 'spam': spam}, indent=2, ensure_ascii=False).encode('utf8'))
+
     return
-
-    """
-
-    ham = collections.defaultdict(dict)
-    spam = collections.defaultdict(dict)
-
-    for id, cluster in clusters.items():
-        for page in cluster['pages'].values():
-            content = ''
-            for text in page['texts']:
-                content += ' '.join(text['text'])
-            if cluster['label'] is 1:
-                ham[url][id] = content
-            else:
-                spam[url][id] = content
-
-
-    with open(os.path.join(path, 'svm.json'), 'w') as f:
-        f.write(json.dumps({'ham': ham, 'spam': spam}, indent=2, ensure_ascii=False).encode('utf8'))
-    """
 
 
 def stats(negatives, positives):

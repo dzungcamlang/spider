@@ -17,21 +17,22 @@ import analyzers
 import tokenizers
 import numpy as np
 from sklearn.feature_extraction import DictVectorizer
-from sklearn import svm, preprocessing, cross_validation
+from sklearn import svm, preprocessing
+from sklearn.model_selection import KFold
 from sklearn.metrics import precision_recall_curve, auc, classification_report, precision_recall_fscore_support
 import collections
 
 def main(args):
     # path = utils.get_data_path(args.site[0])
 
-    sites = ['theverge', 'sina', 'qq', 'techcrunch', 'usatoday', 'npr', 'prothomalo']
+    sites = ['techcrunch']
 
     all_continuous_features = []
     all_discrete_features= []
     all_labels = []
 
     for site in sites:
-        print 'clustering %s ...' % site
+        print('clustering %s ...' % site)
 
         path = utils.get_data_path(site)
         urls = utils.load_urls(path)
@@ -48,7 +49,7 @@ def main(args):
         labels = clusterer.cluster(features).labels_
 
         # prepare features
-        continuous_features, discrete_features, labels = processor.prepare(labels)
+        continuous_features, discrete_features, labels, clusters = processor.prepare(labels)
         all_continuous_features += continuous_features
         all_discrete_features += discrete_features
         all_labels += labels
@@ -66,15 +67,16 @@ def main(args):
     f1scores = []
     supports = []
 
-    rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
+    rs = KFold(4).split(labels)
+    # rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
     for train_index, test_index in rs:
-        print 'training size = %d, testing size = %d' % (len(train_index), len(test_index))
+        # print training size = %d, testing size = %d' % (len(train_index), len(test_index))
 
-        clf = svm.SVC(verbose=False, kernel='linear', probability=False, random_state=0, cache_size=2000, class_weight='auto')
+        clf = svm.SVC(verbose=False, kernel='linear', probability=False, random_state=0, cache_size=2000, class_weight='balanced')
         clf.fit(features[train_index], labels[train_index])
 
         predicted = clf.predict(features[test_index])
-        print classification_report(labels[test_index], predicted)
+        print(classification_report(labels[test_index], predicted))
 
         precision, recall, f1score, support = precision_recall_fscore_support(labels[test_index], predicted)
 
@@ -89,28 +91,30 @@ def main(args):
     supports = np.mean(np.array(supports), axis=0)
 
     for label in range(2):
-        print '%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label])
+        print('%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label]))
 
-    return
 
-    """
     ham = collections.defaultdict(dict)
     spam = collections.defaultdict(dict)
 
+    pageId = 0
     for id, cluster in clusters.items():
         for page in cluster['pages'].values():
             content = ''
             for text in page['texts']:
                 content += ' '.join(text['text'])
+
             if cluster['label'] is 1:
-                ham[url][id] = content
+                ham[pageId][id] = content
             else:
-                spam[url][id] = content
+                spam[pageId][id] = content
+            pageId = pageId + 1
 
 
-    with open(os.path.join(path, 'svm.json'), 'w') as f:
+    with open(os.path.join(path, 'svm.json'), 'wb') as f:
         f.write(json.dumps({'ham': ham, 'spam': spam}, indent=2, ensure_ascii=False).encode('utf8'))
-    """
+    
+    return
 
 def parse_args():
     """

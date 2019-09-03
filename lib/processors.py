@@ -180,7 +180,7 @@ class Processor(object):
             # label
             labels.append(text['label'])
 
-        return continuous_features, discrete_features, labels
+        return continuous_features, discrete_features, labels, clusters
 
         # build numpy array
         #continuous_features = np.array(continuous_features)
