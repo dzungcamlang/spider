@@ -1,0 +1,2767 @@
+{
+  "body": {
+    "bound": {
+      "height": 420.46875,
+      "left": 0,
+      "top": 0,
+      "width": 1600
+    },
+    "computed": {
+      "alignment-baseline": "auto",
+      "background-attachment": "scroll",
+      "background-clip": "border-box",
+      "background-color": "rgb(255, 255, 255)",
+      "background-image": "none",
+      "background-origin": "padding-box",
+      "background-position": "0% 0%",
+      "background-repeat": "repeat",
+      "background-size": "auto",
+      "baseline-shift": "baseline",
+      "border-bottom-color": "rgb(0, 0, 0)",
+      "border-bottom-left-radius": "0px",
+      "border-bottom-right-radius": "0px",
+      "border-bottom-style": "none",
+      "border-bottom-width": "0px",
+      "border-collapse": "separate",
+      "border-image-outset": "0px",
+      "border-image-repeat": "stretch",
+      "border-image-slice": "100%",
+      "border-image-source": "none",
+      "border-image-width": "1",
+      "border-left-color": "rgb(0, 0, 0)",
+      "border-left-style": "none",
+      "border-left-width": "0px",
+      "border-right-color": "rgb(0, 0, 0)",
+      "border-right-style": "none",
+      "border-right-width": "0px",
+      "border-top-color": "rgb(0, 0, 0)",
+      "border-top-left-radius": "0px",
+      "border-top-right-radius": "0px",
+      "border-top-style": "none",
+      "border-top-width": "0px",
+      "bottom": "auto",
+      "box-shadow": "none",
+      "box-sizing": "content-box",
+      "buffered-rendering": "auto",
+      "caption-side": "top",
+      "clear": "none",
+      "clip": "auto",
+      "clip-path": "none",
+      "clip-rule": "nonzero",
+      "color": "rgb(0, 0, 0)",
+      "color-interpolation": "srgb",
+      "color-interpolation-filters": "linearrgb",
+      "color-rendering": "auto",
+      "cursor": "auto",
+      "direction": "ltr",
+      "display": "block",
+      "dominant-baseline": "auto",
+      "empty-cells": "show",
+      "fill": "#000000",
+      "fill-opacity": "1",
+      "fill-rule": "nonzero",
+      "filter": "none",
+      "float": "none",
+      "flood-color": "rgb(0, 0, 0)",
+      "flood-opacity": "1",
+      "font-family": "arial, sans-serif",
+      "font-size": "16px",
+      "font-style": "normal",
+      "font-variant": "normal",
+      "font-weight": "normal",
+      "glyph-orientation-horizontal": "0deg",
+      "glyph-orientation-vertical": "auto",
+      "height": "420.46875px",
+      "image-rendering": "auto",
+      "kerning": "0",
+      "left": "auto",
+      "letter-spacing": "normal",
+      "lighting-color": "rgb(255, 255, 255)",
+      "line-height": "normal",
+      "list-style-image": "none",
+      "list-style-position": "outside",
+      "list-style-type": "disc",
+      "margin-bottom": "0px",
+      "margin-left": "0px",
+      "margin-right": "0px",
+      "margin-top": "0px",
+      "marker-end": "none",
+      "marker-mid": "none",
+      "marker-start": "none",
+      "mask": "none",
+      "mask-type": "luminance",
+      "max-height": "none",
+      "max-width": "none",
+      "min-height": "0px",
+      "min-width": "0px",
+      "opacity": "1",
+      "orphans": "auto",
+      "outline-color": "rgb(0, 0, 0)",
+      "outline-offset": "0px",
+      "outline-style": "none",
+      "outline-width": "0px",
+      "overflow-wrap": "normal",
+      "overflow-x": "auto",
+      "overflow-y": "scroll",
+      "padding-bottom": "0px",
+      "padding-left": "0px",
+      "padding-right": "0px",
+      "padding-top": "0px",
+      "page-break-after": "auto",
+      "page-break-before": "auto",
+      "page-break-inside": "auto",
+      "pointer-events": "auto",
+      "position": "static",
+      "resize": "none",
+      "right": "auto",
+      "shape-rendering": "auto",
+      "speak": "normal",
+      "stop-color": "rgb(0, 0, 0)",
+      "stop-opacity": "1",
+      "stroke": "none",
+      "stroke-dasharray": "none",
+      "stroke-dashoffset": "0",
+      "stroke-linecap": "butt",
+      "stroke-linejoin": "miter",
+      "stroke-miterlimit": "4",
+      "stroke-opacity": "1",
+      "stroke-width": "1",
+      "tab-size": "8",
+      "table-layout": "auto",
+      "text-align": "start",
+      "text-anchor": "start",
+      "text-decoration": "none",
+      "text-indent": "0px",
+      "text-overflow": "clip",
+      "text-rendering": "auto",
+      "text-shadow": "none",
+      "text-transform": "none",
+      "top": "auto",
+      "transition-delay": "0s",
+      "transition-duration": "0s",
+      "transition-property": "all",
+      "transition-timing-function": "ease",
+      "unicode-bidi": "normal",
+      "vector-effect": "none",
+      "vertical-align": "baseline",
+      "visibility": "visible",
+      "white-space": "normal",
+      "widows": "auto",
+      "width": "1600px",
+      "word-break": "normal",
+      "word-spacing": "0px",
+      "word-wrap": "normal",
+      "writing-mode": "lr-tb",
+      "z-index": "auto",
+      "zoom": "1"
+    },
+    "scroll": {
+      "left": 0,
+      "top": 0
+    }
+  },
+  "descriptions": [],
+  "titles": [
+    "Google"
+  ],
+  "url": "https://www.google.com/#spf=1567502736618",
+  "links": [
+    "https://www.google.ru/webhp?tab=ww",
+    "https://www.google.ru/imghp?hl=en&tab=wi",
+    "https://maps.google.ru/maps?hl=en&tab=wl",
+    "https://play.google.com/?hl=en&tab=w8",
+    "https://www.youtube.com/?gl=RU&tab=w1",
+    "https://mail.google.com/mail/?tab=wm",
+    "https://drive.google.com/?tab=wo",
+    "https://www.google.com/calendar?tab=wc",
+    "https://www.google.ru/intl/en/about/products?tab=wh",
+    "https://translate.google.ru/?hl=en&tab=wT",
+    "https://www.google.ru/shopping?hl=en&source=og&tab=wf",
+    "https://www.blogger.com/?tab=wj",
+    "https://photos.google.com/?tab=wq&pageId=none",
+    "http://video.google.ru/?hl=en&tab=wv",
+    "https://docs.google.com/document/?usp=docs_alc",
+    "https://www.google.ru/intl/en/about/products?tab=wh",
+    "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/",
+    "http://www.google.ru/preferences?hl=en",
+    "https://www.google.com/preferences?hl=en",
+    "http://www.google.ru/history/optout?hl=en",
+    "https://www.google.com/advanced_search?hl=en-RU&authuser=0",
+    "https://www.google.com/language_tools?hl=en-RU&authuser=0",
+    "https://www.google.com/setprefs?sig=0_zDd90iXWwBcOLJh6vSQYUxweXrQ%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwio4YziqrTkAhXPR5oKHZNAA-oQ2ZgBCAU",
+    "https://www.google.com/intl/en/ads/",
+    "https://www.google.com/intl/en/about.html",
+    "https://www.google.com/setprefdomain?prefdom=RU&prev=https://www.google.ru/&sig=K_0pfClW6rv80G1qJWWPbEhnEHldM%3D",
+    "https://www.google.com/intl/en/policies/privacy/",
+    "https://www.google.com/intl/en/policies/terms/"
+  ],
+  "texts": [
+    {
+      "bound": {
+        "height": 29,
+        "left": 4,
+        "top": 0,
+        "width": 53.140625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgb(204, 204, 204)",
+        "border-right-color": "rgb(204, 204, 204)",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbp1",
+          "gbz0l",
+          "gbzt"
+        ],
+        "id": "gb_1",
+        "name": "a"
+      },
+      "html": "<span class=\"gbtb2\"></span><span class=\"gbts\">Search</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbp1",
+            "gbz0l",
+            "gbzt"
+          ],
+          "id": "gb_1",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Search"
+      ]
+    },
+    {
+      "bound": {
+        "height": 29,
+        "left": 59.140625,
+        "top": 0,
+        "width": 54.59375
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgb(204, 204, 204)",
+        "border-right-color": "rgb(204, 204, 204)",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbzt"
+        ],
+        "id": "gb_2",
+        "name": "a"
+      },
+      "html": "<span class=\"gbtb2\"></span><span class=\"gbts\">Images</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbzt"
+          ],
+          "id": "gb_2",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Images"
+      ]
+    },
+    {
+      "bound": {
+        "height": 29,
+        "left": 115.734375,
+        "top": 0,
+        "width": 43.765625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgb(204, 204, 204)",
+        "border-right-color": "rgb(204, 204, 204)",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbzt"
+        ],
+        "id": "gb_8",
+        "name": "a"
+      },
+      "html": "<span class=\"gbtb2\"></span><span class=\"gbts\">Maps</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbzt"
+          ],
+          "id": "gb_8",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Maps"
+      ]
+    },
+    {
+      "bound": {
+        "height": 29,
+        "left": 161.5,
+        "top": 0,
+        "width": 37.25
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgb(204, 204, 204)",
+        "border-right-color": "rgb(204, 204, 204)",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbzt"
+        ],
+        "id": "gb_78",
+        "name": "a"
+      },
+      "html": "<span class=\"gbtb2\"></span><span class=\"gbts\">Play</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbzt"
+          ],
+          "id": "gb_78",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Play"
+      ]
+    },
+    {
+      "bound": {
+        "height": 29,
+        "left": 200.75,
+        "top": 0,
+        "width": 64.6875
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgb(204, 204, 204)",
+        "border-right-color": "rgb(204, 204, 204)",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbzt"
+        ],
+        "id": "gb_36",
+        "name": "a"
+      },
+      "html": "<span class=\"gbtb2\"></span><span class=\"gbts\">YouTube</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbzt"
+          ],
+          "id": "gb_36",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "YouTube"
+      ]
+    },
+    {
+      "bound": {
+        "height": 29,
+        "left": 267.4375,
+        "top": 0,
+        "width": 45.90625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgb(204, 204, 204)",
+        "border-right-color": "rgb(204, 204, 204)",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbzt"
+        ],
+        "id": "gb_23",
+        "name": "a"
+      },
+      "html": "<span class=\"gbtb2\"></span><span class=\"gbts\">Gmail</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbzt"
+          ],
+          "id": "gb_23",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Gmail"
+      ]
+    },
+    {
+      "bound": {
+        "height": 29,
+        "left": 315.34375,
+        "top": 0,
+        "width": 42.296875
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgb(204, 204, 204)",
+        "border-right-color": "rgb(204, 204, 204)",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbzt"
+        ],
+        "id": "gb_49",
+        "name": "a"
+      },
+      "html": "<span class=\"gbtb2\"></span><span class=\"gbts\">Drive</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbzt"
+          ],
+          "id": "gb_49",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Drive"
+      ]
+    },
+    {
+      "bound": {
+        "height": 29,
+        "left": 359.640625,
+        "top": 0,
+        "width": 64.671875
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgb(204, 204, 204)",
+        "border-right-color": "rgb(204, 204, 204)",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbzt"
+        ],
+        "id": "gb_24",
+        "name": "a"
+      },
+      "html": "<span class=\"gbtb2\"></span><span class=\"gbts\">Calendar</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbzt"
+          ],
+          "id": "gb_24",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Calendar"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 426.3125,
+        "top": 2,
+        "width": 51.59375
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgba(0, 0, 0, 0)",
+        "border-left-style": "solid",
+        "border-left-width": "1px",
+        "border-right-color": "rgba(0, 0, 0, 0)",
+        "border-right-style": "solid",
+        "border-right-width": "1px",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "5px",
+        "padding-right": "9px",
+        "position": "relative",
+        "text-align": "left",
+        "white-space": "nowrap",
+        "z-index": "1000"
+      },
+      "element": {
+        "classes": [
+          "gbts",
+          "gbtsa"
+        ],
+        "id": "gbztms",
+        "name": "span"
+      },
+      "html": "<span id=\"gbztms1\">More</span><span class=\"gbma\"></span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a",
+        "span"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbgt"
+          ],
+          "id": "gbztm",
+          "name": "a"
+        },
+        {
+          "classes": [
+            "gbts",
+            "gbtsa"
+          ],
+          "id": "gbztms",
+          "name": "span"
+        }
+      ],
+      "text": [
+        "More"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 427.3125,
+        "top": -988,
+        "width": 113.625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "gb_51",
+        "name": "a"
+      },
+      "html": "Translate",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc",
+            "gbsb",
+            "gbsbis"
+          ],
+          "id": "gbmmb",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc",
+            "gbsbic"
+          ],
+          "id": "gbmm",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "gb_51",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Translate"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 427.3125,
+        "top": -959,
+        "width": 113.625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "gb_6",
+        "name": "a"
+      },
+      "html": "Shopping",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc",
+            "gbsb",
+            "gbsbis"
+          ],
+          "id": "gbmmb",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc",
+            "gbsbic"
+          ],
+          "id": "gbmm",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "gb_6",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Shopping"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 427.3125,
+        "top": -930,
+        "width": 113.625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "gb_30",
+        "name": "a"
+      },
+      "html": "Blogger",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc",
+            "gbsb",
+            "gbsbis"
+          ],
+          "id": "gbmmb",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc",
+            "gbsbic"
+          ],
+          "id": "gbmm",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "gb_30",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Blogger"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 427.3125,
+        "top": -901,
+        "width": 113.625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "gb_31",
+        "name": "a"
+      },
+      "html": "Photos",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc",
+            "gbsb",
+            "gbsbis"
+          ],
+          "id": "gbmmb",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc",
+            "gbsbic"
+          ],
+          "id": "gbmm",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "gb_31",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Photos"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 427.3125,
+        "top": -872,
+        "width": 113.625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "gb_12",
+        "name": "a"
+      },
+      "html": "Videos",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc",
+            "gbsb",
+            "gbsbis"
+          ],
+          "id": "gbmmb",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc",
+            "gbsbic"
+          ],
+          "id": "gbmm",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "gb_12",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Videos"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 427.3125,
+        "top": -843,
+        "width": 113.625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "gb_25",
+        "name": "a"
+      },
+      "html": "Docs",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc",
+            "gbsb",
+            "gbsbis"
+          ],
+          "id": "gbmmb",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc",
+            "gbsbic"
+          ],
+          "id": "gbmm",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "gb_25",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Docs"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 427.3125,
+        "top": -793,
+        "width": 113.625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "",
+        "name": "a"
+      },
+      "html": "Even more »",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbz",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "gbzc",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc",
+            "gbsb",
+            "gbsbis"
+          ],
+          "id": "gbmmb",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc",
+            "gbsbic"
+          ],
+          "id": "gbmm",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Even more »"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 1514.328125,
+        "top": 2,
+        "width": 51.671875
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(204, 204, 204)",
+        "border-left-color": "rgba(0, 0, 0, 0)",
+        "border-left-style": "solid",
+        "border-left-width": "1px",
+        "border-right-color": "rgba(0, 0, 0, 0)",
+        "border-right-style": "solid",
+        "border-right-width": "1px",
+        "border-top-color": "rgb(204, 204, 204)",
+        "color": "rgb(204, 204, 204)",
+        "cursor": "pointer",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(204, 204, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "5px",
+        "padding-right": "5px",
+        "position": "relative",
+        "text-align": "left",
+        "white-space": "nowrap",
+        "z-index": "1000"
+      },
+      "element": {
+        "classes": [
+          "gbts"
+        ],
+        "id": "gbgs4",
+        "name": "span"
+      },
+      "html": "<span id=\"gbi4s1\">Sign in</span>",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a",
+        "span"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbg",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbgt"
+          ],
+          "id": "gb_70",
+          "name": "a"
+        },
+        {
+          "classes": [
+            "gbts"
+          ],
+          "id": "gbgs4",
+          "name": "span"
+        }
+      ],
+      "text": [
+        "Sign in"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 1464.5,
+        "top": -988,
+        "width": 129.5
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "",
+        "name": "a"
+      },
+      "html": "Search settings",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbg",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd5",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc"
+          ],
+          "id": "gbom",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbkc",
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Search settings"
+      ]
+    },
+    {
+      "bound": {
+        "height": 27,
+        "left": 1462.5,
+        "top": -938,
+        "width": 131.5
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "13px",
+        "line-height": "27px",
+        "list-style-type": "none",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        "text-align": "left",
+        "visibility": "hidden",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [
+          "gbmt"
+        ],
+        "id": "",
+        "name": "a"
+      },
+      "html": "Web History",
+      "path": [
+        "div",
+        "div",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "div",
+        "div",
+        "ol",
+        "li",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "mngb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gb",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbw",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gbg",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbtc"
+          ],
+          "id": "",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbt"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbm"
+          ],
+          "id": "gbd5",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmc"
+          ],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [
+            "gbmcc"
+          ],
+          "id": "gbom",
+          "name": "ol"
+        },
+        {
+          "classes": [
+            "gbkp",
+            "gbmtc"
+          ],
+          "id": "",
+          "name": "li"
+        },
+        {
+          "classes": [
+            "gbmt"
+          ],
+          "id": "",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Web History"
+      ]
+    },
+    {
+      "bound": {
+        "height": 12,
+        "left": 1068,
+        "top": 211,
+        "width": 242
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "11px",
+        "line-height": "12.796875px",
+        "margin-bottom": "2px",
+        "margin-left": "13px",
+        "margin-top": "2px",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "-webkit-left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "a"
+      },
+      "html": "Advanced search",
+      "path": [
+        "center",
+        "form",
+        "table",
+        "tbody",
+        "tr",
+        "td",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "center"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "form"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "table"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "tbody"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "tr"
+        },
+        {
+          "classes": [
+            "fl",
+            "sblc"
+          ],
+          "id": "",
+          "name": "td"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Advanced search"
+      ]
+    },
+    {
+      "bound": {
+        "height": 12,
+        "left": 1068,
+        "top": 227,
+        "width": 242
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(51, 102, 204)",
+        "border-left-color": "rgb(51, 102, 204)",
+        "border-right-color": "rgb(51, 102, 204)",
+        "border-top-color": "rgb(51, 102, 204)",
+        "color": "rgb(51, 102, 204)",
+        "font-size": "11px",
+        "line-height": "12.796875px",
+        "margin-bottom": "2px",
+        "margin-left": "13px",
+        "margin-top": "2px",
+        "outline-color": "rgb(51, 102, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "-webkit-left",
+        "white-space": "nowrap"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "a"
+      },
+      "html": "Language tools",
+      "path": [
+        "center",
+        "form",
+        "table",
+        "tbody",
+        "tr",
+        "td",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "center"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "form"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "table"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "tbody"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "tr"
+        },
+        {
+          "classes": [
+            "fl",
+            "sblc"
+          ],
+          "id": "",
+          "name": "td"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Language tools"
+      ]
+    },
+    {
+      "bound": {
+        "height": 28,
+        "left": 720.140625,
+        "top": 318,
+        "width": 159.71875
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "display": "inline-block",
+        "font-size": "13px",
+        "line-height": "28px",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "-webkit-center"
+      },
+      "element": {
+        "classes": [],
+        "id": "SIvCob",
+        "name": "div"
+      },
+      "html": "Google offered in:  <a href=\"https://www.google.com/setprefs?sig=0_zDd90iXWwBcOLJh6vSQYUxweXrQ%3D&amp;hl=ru&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwio4YziqrTkAhXPR5oKHZNAA-oQ2ZgBCAU\">русский</a>  ",
+      "path": [
+        "center",
+        "div",
+        "div",
+        "div"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "center"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "gws-output-pages-elements-homepage_additional_languages__als",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "SIvCob",
+          "name": "div"
+        }
+      ],
+      "text": [
+        "Google offered in:  ",
+        "русский"
+      ]
+    },
+    {
+      "bound": {
+        "height": 15,
+        "left": 645.734375,
+        "top": 373.46875,
+        "width": 124.125
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(17, 17, 204)",
+        "border-left-color": "rgb(17, 17, 204)",
+        "border-right-color": "rgb(17, 17, 204)",
+        "border-top-color": "rgb(17, 17, 204)",
+        "color": "rgb(17, 17, 204)",
+        "display": "inline-block",
+        "font-size": "13px",
+        "margin-left": "12px",
+        "margin-right": "12px",
+        "outline-color": "rgb(17, 17, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "center"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "a"
+      },
+      "html": "Advertising&nbsp;Programs",
+      "path": [
+        "center",
+        "span",
+        "div",
+        "div",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "center"
+        },
+        {
+          "classes": [],
+          "id": "footer",
+          "name": "span"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "fll",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Advertising Programs"
+      ]
+    },
+    {
+      "bound": {
+        "height": 15,
+        "left": 794.859375,
+        "top": 374.46875,
+        "width": 79.390625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(17, 17, 204)",
+        "border-left-color": "rgb(17, 17, 204)",
+        "border-right-color": "rgb(17, 17, 204)",
+        "border-top-color": "rgb(17, 17, 204)",
+        "color": "rgb(17, 17, 204)",
+        "display": "inline-block",
+        "font-size": "13px",
+        "margin-left": "12px",
+        "margin-right": "12px",
+        "outline-color": "rgb(17, 17, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "center"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "a"
+      },
+      "html": "About Google",
+      "path": [
+        "center",
+        "span",
+        "div",
+        "div",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "center"
+        },
+        {
+          "classes": [],
+          "id": "footer",
+          "name": "span"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "fll",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "About Google"
+      ]
+    },
+    {
+      "bound": {
+        "height": 15,
+        "left": 899.25,
+        "top": 374.46875,
+        "width": 57.015625
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(17, 17, 204)",
+        "border-left-color": "rgb(17, 17, 204)",
+        "border-right-color": "rgb(17, 17, 204)",
+        "border-top-color": "rgb(17, 17, 204)",
+        "color": "rgb(17, 17, 204)",
+        "display": "inline-block",
+        "font-size": "13px",
+        "margin-left": "12px",
+        "margin-right": "12px",
+        "outline-color": "rgb(17, 17, 204)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "center"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "a"
+      },
+      "html": "Google.ru",
+      "path": [
+        "center",
+        "span",
+        "div",
+        "div",
+        "a"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "center"
+        },
+        {
+          "classes": [],
+          "id": "footer",
+          "name": "span"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "fll",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "a"
+        }
+      ],
+      "text": [
+        "Google.ru"
+      ]
+    },
+    {
+      "bound": {
+        "height": 13,
+        "left": 0,
+        "top": 409.46875,
+        "width": 1600
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "border-bottom-color": "rgb(118, 118, 118)",
+        "border-left-color": "rgb(118, 118, 118)",
+        "border-right-color": "rgb(118, 118, 118)",
+        "border-top-color": "rgb(118, 118, 118)",
+        "color": "rgb(118, 118, 118)",
+        "font-size": "11px",
+        "margin-bottom": "10.666666984558105px",
+        "margin-top": "10.666666984558105px",
+        "outline-color": "rgb(118, 118, 118)",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "text-align": "-webkit-center"
+      },
+      "element": {
+        "classes": [],
+        "id": "",
+        "name": "p"
+      },
+      "html": "© 2019 - <a href=\"/intl/en/policies/privacy/\">Privacy</a> - <a href=\"/intl/en/policies/terms/\">Terms</a>",
+      "path": [
+        "center",
+        "span",
+        "p"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "center"
+        },
+        {
+          "classes": [],
+          "id": "footer",
+          "name": "span"
+        },
+        {
+          "classes": [],
+          "id": "",
+          "name": "p"
+        }
+      ],
+      "text": [
+        "© 2019 - ",
+        "Privacy",
+        " - ",
+        "Terms"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "bound": {
+        "height": 134,
+        "left": 664,
+        "top": 48,
+        "width": 272
+      },
+      "computed": {
+        "background-color": "rgba(0, 0, 0, 0)",
+        "display": "inline",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-bottom": "14px",
+        "padding-top": "28px",
+        "text-align": "-webkit-center"
+      },
+      "element": {
+        "classes": [],
+        "id": "hplogo",
+        "name": "img"
+      },
+      "path": [
+        "center",
+        "div",
+        "img"
+      ],
+      "selector": [
+        {
+          "classes": [],
+          "id": "",
+          "name": "center"
+        },
+        {
+          "classes": [],
+          "id": "lga",
+          "name": "div"
+        },
+        {
+          "classes": [],
+          "id": "hplogo",
+          "name": "img"
+        }
+      ],
+      "src": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png"
+    }
+  ]
+}

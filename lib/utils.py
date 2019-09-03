@@ -1,5 +1,5 @@
 import os
-import simplejson as json
+import json
 import itertools
 
 def get_data_path(site):

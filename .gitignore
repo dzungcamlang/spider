@@ -26,3 +26,5 @@ store
 .DS_Store*
 Icon?
 
+.venv
+.vscode
