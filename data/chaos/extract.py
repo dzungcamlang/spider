@@ -4,7 +4,7 @@ import subprocess
 import shutil
 
 def main():
-    extractor = os.path.realpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), '..', '..', 'extractor', 'extractor.coffee'))
+    extractor = os.path.realpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), '..', '..', 'extractor', 'extractor.js'))
 
     for id in range(0, 200):
         path = os.path.realpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'original', '%d.htm' % id))
@@ -45,11 +45,11 @@ def main():
                     url = href
                     break
         print('%d: %s' % (id, url))
-        #print url
-        #shutil.copy(
+        # print(url)
+        # shutil.copy(
         #    os.path.realpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'gold', '%d.txt' % id)),
         #    os.path.realpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), '%03d.txt' % id))
-        #)
+        # )
         continue
         if url:
             # print url

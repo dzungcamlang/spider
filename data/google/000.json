@@ -164,7 +164,7 @@
   "titles": [
     "Google"
   ],
-  "url": "https://www.google.com/#spf=1567502736618",
+  "url": "https://www.google.com/#spf=1567515903394",
   "links": [
     "https://www.google.ru/webhp?tab=ww",
     "https://www.google.ru/imghp?hl=en&tab=wi",
@@ -188,10 +188,10 @@
     "http://www.google.ru/history/optout?hl=en",
     "https://www.google.com/advanced_search?hl=en-RU&authuser=0",
     "https://www.google.com/language_tools?hl=en-RU&authuser=0",
-    "https://www.google.com/setprefs?sig=0_zDd90iXWwBcOLJh6vSQYUxweXrQ%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwio4YziqrTkAhXPR5oKHZNAA-oQ2ZgBCAU",
+    "https://www.google.com/setprefs?sig=0_kWMyOXUmim616GN7w43QIz66V-Q%3D&hl=ru&source=homepage&sa=X&ved=0ahUKEwiFyb7m27TkAhW6AhAIHc6vACUQ2ZgBCAU",
     "https://www.google.com/intl/en/ads/",
     "https://www.google.com/intl/en/about.html",
-    "https://www.google.com/setprefdomain?prefdom=RU&prev=https://www.google.ru/&sig=K_0pfClW6rv80G1qJWWPbEhnEHldM%3D",
+    "https://www.google.com/setprefdomain?prefdom=RU&prev=https://www.google.ru/&sig=K_iFx8xhbz4kRgQzaNaZ_0KQABQmk%3D",
     "https://www.google.com/intl/en/policies/privacy/",
     "https://www.google.com/intl/en/policies/terms/"
   ],
@@ -2424,7 +2424,7 @@
         "id": "SIvCob",
         "name": "div"
       },
-      "html": "Google offered in:  <a href=\"https://www.google.com/setprefs?sig=0_zDd90iXWwBcOLJh6vSQYUxweXrQ%3D&amp;hl=ru&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwio4YziqrTkAhXPR5oKHZNAA-oQ2ZgBCAU\">русский</a>  ",
+      "html": "Google offered in:  <a href=\"https://www.google.com/setprefs?sig=0_kWMyOXUmim616GN7w43QIz66V-Q%3D&amp;hl=ru&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiFyb7m27TkAhW6AhAIHc6vACUQ2ZgBCAU\">русский</a>  ",
       "path": [
         "center",
         "div",

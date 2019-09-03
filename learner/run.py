@@ -19,13 +19,13 @@ def main(args):
     path = utils.get_data_path(args.site[0])
     urls = utils.load_urls(path)
 
-    for count in range(2, len(urls) + 1):
+    for count in range(1, len(urls) + 1):
 
         print('[learner] clustering with %d urls' % count)
 
         # load data
         data = [utils.load_data(path, id) for id, url in enumerate(urls)]
-        data = data[:count]
+        data = data[:count+1]
 
         # process data
         processor = processors.Processor(data)
