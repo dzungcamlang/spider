@@ -1,7 +1,7 @@
 import collections
 import math
 import numpy as np
-import mlpy
+import py_common_subseq
 
 class TermFrequencyAnalyzer(object):
 
@@ -54,7 +54,7 @@ class LongestAnalyzer(object):
 
         a = np.array(list(a), dtype='U1').view(np.uint32)
         b = np.array(list(b), dtype='U1').view(np.uint32)
-        length, path = mlpy.lcs_std(a, b)
+        length = py_common_subseq.count_common_subsequences(a, b)
         return length
         
     def lcs(self, a, b):
