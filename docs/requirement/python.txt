@@ -7,5 +7,6 @@ redis
 hiredis
 simplejson
 celery
+BeautifulSoup4
 py_common_subseq
 -e git+git://github.com/evilkost/brukva.git#egg=brukva
