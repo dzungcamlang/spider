@@ -28,3 +28,6 @@ Icon?
 
 .venv
 .vscode
+dist
+build
+*.spec

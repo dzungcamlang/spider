@@ -17,7 +17,8 @@ import analyzers
 import tokenizers
 import numpy as np
 from sklearn.feature_extraction import DictVectorizer
-from sklearn import svm, preprocessing, cross_validation
+from sklearn import svm, preprocessing
+from sklearn.model_selection import KFold
 from sklearn.metrics import precision_recall_curve, auc, classification_report, precision_recall_fscore_support
 import collections
 import random
@@ -52,29 +53,30 @@ def main(args):
 
     # scale features
     features = preprocessing.scale(features)
-    print features.shape
+    print(features.shape)
 
     precisions = []
     recalls = []
     f1scores = []
     supports = []
 
-    rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
-    for train_index, test_index in rs:
-        print 'training size = %d, testing size = %d' % (len(train_index), len(test_index))
 
-        clf = svm.SVC(verbose=False, kernel='linear', probability=False, random_state=0, cache_size=2000, class_weight='auto')
+    rs = KFold(4).split(labels)
+    for train_index, test_index in rs:
+        print('training size = %d, testing size = %d' % (len(train_index), len(test_index)))
+
+        clf = svm.SVC(verbose=False, kernel='linear', probability=False, random_state=0, cache_size=2000, class_weight='balanced')
         clf.fit(features[train_index], labels[train_index])
 
-        print clf.n_support_
+        print(clf.n_support_)
 
-        print "training:"
+        print("training:")
         predicted = clf.predict(features[train_index])
-        print classification_report(labels[train_index], predicted)
+        print(classification_report(labels[train_index], predicted))
 
-        print "testing:"
+        print("testing:")
         predicted = clf.predict(features[test_index])
-        print classification_report(labels[test_index], predicted)
+        print(classification_report(labels[test_index], predicted))
 
         precision, recall, f1score, support = precision_recall_fscore_support(labels[test_index], predicted)
 
@@ -89,7 +91,7 @@ def main(args):
     supports = np.mean(np.array(supports), axis=0)
 
     for label in range(2):
-        print '%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label])
+        print('%f\t%f\t%f\t%f' % (precisions[label], recalls[label], f1scores[label], supports[label]))
 
     return
 
@@ -154,12 +156,12 @@ def stats(negatives, positives):
             if (key, value) not in common:
                 positives_counts[(key, value)] += 1
 
-    print 'negatives: '
-    print list(reversed(sorted(filter(lambda x: x[1] > 1, negative_counts.items()), key=lambda pair: pair[1])))[:10]
-    print list(reversed(sorted(filter(lambda x: x[1] > 1, negatives_paths.items()), key=lambda pair: pair[1])))[:10]
-    print 'positives: '
-    print list(reversed(sorted(filter(lambda x: x[1] > 1, positives_counts.items()), key=lambda pair: pair[1])))[:10]
-    print list(reversed(sorted(filter(lambda x: x[1] > 1, positives_paths.items()), key=lambda pair: pair[1])))[:10]
+    print('negatives: ')
+    print(list(reversed(sorted(filter(lambda x: x[1] > 1, negative_counts.items()), key=lambda pair: pair[1])))[:10])
+    print(list(reversed(sorted(filter(lambda x: x[1] > 1, negatives_paths.items()), key=lambda pair: pair[1])))[:10])
+    print('positives: ')
+    print(list(reversed(sorted(filter(lambda x: x[1] > 1, positives_counts.items()), key=lambda pair: pair[1])))[:10])
+    print(list(reversed(sorted(filter(lambda x: x[1] > 1, positives_paths.items()), key=lambda pair: pair[1])))[:10])
 
 
 
