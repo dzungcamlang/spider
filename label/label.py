@@ -17,7 +17,8 @@ import clusterers
 import collections
 import numpy as np
 from sklearn.feature_extraction import DictVectorizer
-from sklearn import svm, preprocessing, cross_validation
+from sklearn import svm, preprocessing
+from sklearn.model_selection import KFold
 from sklearn.metrics import precision_recall_curve, auc, classification_report, precision_recall_fscore_support
 import random
 
@@ -154,7 +155,8 @@ def main(args):
     f1scores = []
     supports = []
 
-    rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
+    # rs = cross_validation.KFold(len(labels), n_folds=4, shuffle=False, random_state=0)
+    rs = KFold(4).split(labels)
     for train_index, test_index in rs:
         print('training size = %d, testing size = %d' % (len(train_index), len(test_index)))
 
