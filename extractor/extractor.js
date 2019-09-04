@@ -147,7 +147,7 @@
       var computed, descriptions, key, meta, title, titles, _i, _len, _ref;
       titles = (function() {
         var _i, _len, _ref, _results;
-        _ref = document.querySelectorAll('title');
+        _ref = document.head.querySelectorAll('title');
         _results = [];
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           title = _ref[_i];
@@ -155,6 +155,28 @@
         }
         return _results;
       })();
+
+      titles.push.apply(titles, (function() {
+        var _i, _len, _ref, _results;
+        _ref = document.head.querySelectorAll('meta[name="og:title"], meta[property="og:title"]');
+        _results = [];
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          meta = _ref[_i];
+          _results.push(meta.content);
+        }
+        return _results;
+      })());
+
+      titles.push.apply(titles, (function() {
+        var _i, _len, _ref, _results;
+        _ref = document.head.querySelectorAll('meta[name="twitter:title"], meta[property="twitter:title"]');
+        _results = [];
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          meta = _ref[_i];
+          _results.push(meta.content);
+        }
+        return _results;
+      })());
 
       descriptions = (function() {
         var _i, _len, _ref, _results;
@@ -167,31 +189,9 @@
         return _results;
       })();
 
-      titles.push.apply(titles, (function() {
-        var _i, _len, _ref, _results;
-        _ref = document.querySelectorAll('meta[name="og:title"], meta[property="og:title"]');
-        _results = [];
-        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-          meta = _ref[_i];
-          _results.push(meta.content);
-        }
-        return _results;
-      })());
-
       descriptions.push.apply(descriptions, (function() {
         var _i, _len, _ref, _results;
         _ref = document.querySelectorAll('meta[name="og:description"], meta[property="og:description"]');
-        _results = [];
-        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-          meta = _ref[_i];
-          _results.push(meta.content);
-        }
-        return _results;
-      })());
-
-      titles.push.apply(titles, (function() {
-        var _i, _len, _ref, _results;
-        _ref = document.querySelectorAll('meta[name="twitter:title"], meta[property="twitter:title"]');
         _results = [];
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           meta = _ref[_i];
@@ -287,7 +287,7 @@
           computed: spider.utils.computed(node)
         };
         texts.push(node.spider);
-        node.style.border = '1px solid red';
+        node.style.border = '2px solid red';
       }
       return texts;
     });
