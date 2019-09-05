@@ -25,7 +25,7 @@ import collections
 def main(args):
     # path = utils.get_data_path(args.site[0])
 
-    sites = ['techcrunch']
+    sites = ['safari']
 
     all_continuous_features = []
     all_discrete_features= []

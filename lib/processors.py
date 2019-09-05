@@ -1,4 +1,3 @@
-from sklearn.feature_extraction import DictVectorizer
 import numpy as np
 import tokenizers
 import analyzers
@@ -6,6 +5,8 @@ import collections
 import itertools
 import utils
 import re
+
+from sklearn.feature_extraction import DictVectorizer
 from sklearn import preprocessing
 
 class Processor(object):
@@ -102,6 +103,7 @@ class Processor(object):
             cluster['score'] += score
 
             cluster['pages'][page['url']]['texts'].append(text)
+            cluster['pages'][page['url']]['url'] = page['url']
 
         best_cluster = max(clusters.values(), key=lambda x: x['score'])
         for page in best_cluster['pages'].values():
@@ -114,27 +116,25 @@ class Processor(object):
         discrete_features = []
         labels = []
 
-        """
-        for id, cluster in clusters.items():
-            for page in cluster['pages'].values():
-                for text in page['texts']:
-                    text_length = len(text['tokens'])
-                    area = text['bound']['height'] * text['bound']['width']
-                    text_density = float(text_length) / float(area)
+        # for id, cluster in clusters.items():
+        #     for page in cluster['pages'].values():
+        #         for text in page['texts']:
+        #             text_length = len(text['tokens'])
+        #             area = text['bound']['height'] * text['bound']['width']
+        #             text_density = float(text_length) / float(area)
 
-                    # continuous_feature
-                    continuous_feature = [text_length, text_density]
-                    continuous_features.append(continuous_feature)
+        #             # continuous_feature
+        #             continuous_feature = [text_length, text_density]
+        #             continuous_features.append(continuous_feature)
 
-                    # discrete features
-                    discrete_feature = dict()
-                    discrete_feature = dict(text['computed'].items())
-                    discrete_feature['path'] = ' > '.join(text['path'])
-                    discrete_features.append(discrete_feature)
+        #             # discrete features
+        #             discrete_feature = dict()
+        #             discrete_feature = dict(text['computed'].items())
+        #             discrete_feature['path'] = ' > '.join(text['path'])
+        #             discrete_features.append(discrete_feature)
 
-                    # label
-                    labels.append(cluster['label'])
-        """
+        #             # label
+        #             labels.append(cluster['label'])
 
         for text in self.texts:
             text_length = len(text['tokens'])

@@ -76,6 +76,7 @@
           if (is_name_only) {
             return name;
           }
+
           classes = [];
           _ref = element.classList;
           for (_i = 0, _len = _ref.length; _i < _len; _i++) {
@@ -84,6 +85,7 @@
               classes.push(c);
             }
           }
+          
           data = {
             name: name,
             id: exports.is_valid(element.id) ? element.id : '',

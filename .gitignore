@@ -31,3 +31,4 @@ Icon?
 dist
 build
 *.spec
+data

@@ -16,12 +16,14 @@ import argparse
 import analyzers
 import tokenizers
 import numpy as np
+import collections
+import random
+
 from sklearn.feature_extraction import DictVectorizer
 from sklearn import svm, preprocessing
 from sklearn.model_selection import KFold
 from sklearn.metrics import precision_recall_curve, auc, classification_report, precision_recall_fscore_support
-import collections
-import random
+
 def main(args):
 
     path = utils.get_data_path(args.site[0])
@@ -30,6 +32,7 @@ def main(args):
     # load data
     data = [utils.load_data(path, id) for id, url in enumerate(urls)]
     random.shuffle(data)
+    
     for page in data:
         random.shuffle(page['texts'])
 
@@ -103,22 +106,22 @@ def main(args):
 
     stats(negatives, positives)
 
-    # ham = collections.defaultdict(dict)
-    # spam = collections.defaultdict(dict)
+    ham = collections.defaultdict(dict)
+    spam = collections.defaultdict(dict)
 
-    # for id, cluster in clusters.items():
-    #     for page in cluster['pages'].values():
-    #         content = ''
-    #         for text in page['texts']:
-    #             content += ' '.join(text['text'])
-    #         if cluster['label'] is 1:
-    #             ham[url][id] = content
-    #         else:
-    #             spam[url][id] = content
+    for id, cluster in clusters.items():
+        for page in cluster['pages'].values():
+            content = ''
+            for text in page['texts']:
+                content += ' '.join(text['text'])
+            if cluster['label'] is 1:
+                ham[page['url']][id] = content
+            else:
+                spam[page['url']][id] = content
 
 
-    # with open(os.path.join(path, 'svm.json'), 'wb') as =
-    #     f.write(json.dumps({'ham': ham, 'spam': spam}, indent=2, ensure_ascii=False).encode('utf8'))
+    with open(os.path.join(path, 'svm.json'), 'wb') as f:
+        f.write(json.dumps({'ham': ham, 'spam': spam}, indent=2, ensure_ascii=False).encode('utf8'))
 
     return
 
@@ -157,7 +160,6 @@ def stats(negatives, positives):
     print('positives: ')
     print(list(reversed(sorted(filter(lambda x: x[1] > 1, positives_counts.items()), key=lambda pair: pair[1])))[:10])
     print(list(reversed(sorted(filter(lambda x: x[1] > 1, positives_paths.items()), key=lambda pair: pair[1])))[:10])
-
 
 
 def parse_args():
